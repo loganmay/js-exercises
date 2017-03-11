@@ -1,5 +1,5 @@
 // Note: I authored only the section of the code commented 'map and filter'
-//       while taking Jafar Husain's (@jhusain) JS Array's course on egghead.io
+// while taking Jafar Husain's (@jhusain) JS Array's course on egghead.io
 
 
 // Problem: How would we print just the prices of the stocks on Christmas Eve?
