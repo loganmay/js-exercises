@@ -1,4 +1,8 @@
-// How would we get just the prices of the stocks on Christmas Eve?
+// Note: I authored only the section of the code commented 'map and filter'
+//       while taking Jafar Husain's (@jhusain) JS Array's course on egghead.io
+
+
+// Problem: How would we print just the prices of the stocks on Christmas Eve?
 
 var exchanges = [
   { 
@@ -48,13 +52,11 @@ var exchanges = [
 // Define an nested-array flattening function
 Array.prototype.concatAll = function() {
   var results = [];
-  
   this.forEach(function(subArray) {
     subArray.forEach(function(item) {
       results.push(item);
     });
   });
-  
   return results;
 };
 
@@ -78,6 +80,3 @@ var christmasEvePrices =
 christmasEvePrices.forEach(function(price) {
   console.log(price);
 });
-
-// Note: I authored only the section of the code commented 'map and filter'
-// while taking Jafar Husain's (@jhusain) JS Array's course on egghead.io
