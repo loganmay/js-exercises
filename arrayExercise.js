@@ -79,5 +79,5 @@ christmasEvePrices.forEach(function(price) {
   console.log(price);
 });
 
-// Note: I authored only the map and filter part of this code
+// Note: I authored only the section of the code commented 'map and filter'
 // while taking Jafar Husain's (@jhusain) JS Array's course on egghead.io
